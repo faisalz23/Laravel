@@ -62,4 +62,160 @@
             </div>
         </div>
     </div>
+
+    <!-- New Table -->
+    
+    <table class="table table-bordered" width="100%" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Harga</th>
+                <th>Bobot Harga</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>4-5,5 jt</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>5,5-7 jt</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>7-8,5 jt</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>8,5-12 jt</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>>12 jt</td>
+                <td>1</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <table class="table table-bordered" width="100%" cellspacing="0">
+        <thead>
+            <tr>
+                <th>RAM</th>
+                <th>Bobot RAM</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>16</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <table class="table table-bordered" width="100%" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Storage</th>
+                <th>Bobot Storage</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1 TB</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>512 GB</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>256</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>128</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>64</td>
+                <td>1</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <table class="table table-bordered" width="100%" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Prosesor</th>
+                <th>Bobot Prosesor</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Intel i9</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Intel i7</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Intel i5</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Intel i3</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Intel Celeron</td>
+                <td>1</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <table class="table table-bordered" width="100%" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Ukuran Layar</th>
+                <th>Bobot Ukuran Layar</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>16"</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>14"</td>
+                <td>3</td>
+            </tr>
+            
+            
+        </tbody>
+    </table>
 @endsection

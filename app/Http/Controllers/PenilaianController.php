@@ -75,4 +75,10 @@ class PenilaianController extends Controller
 
         return redirect()->route('penilaian.index')->with('toast_success', 'Penilaian alternatif ' . $alternative->nama_alternatif . ' diperbarui!');
     }
+
+    public function destroy(Penilaian $penilaian)
+    {
+        $penilaian->delete();
+        return redirect()->route('penilaian.index')->with('success', 'Alternatif deleted successfully.');
+    }
 }

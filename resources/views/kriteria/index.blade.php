@@ -15,7 +15,7 @@
 
     <div class="row mb-4">
         <div class="col text-right">
-            <a class="btn btn-primary" href="{{ route('kriteria.create') }}">Create Kriteria</a>
+            <a class="btn btn-primary" style="background-color: blue;" href="{{ route('kriteria.create') }}">Create Kriteria</a>
         </div>
     </div>
 

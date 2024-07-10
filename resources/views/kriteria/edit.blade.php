@@ -55,7 +55,7 @@
 
                 <div class="row">
                     <div class="col text-center">
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary" style="background-color: blue;">Submit</button>
                     </div>
                 </div>
             </form>

@@ -51,10 +51,11 @@
                                     <hr>
 
                                     <div class="form-group">
-                                        <button type="button" class="btn btn-github btn-user btn-block">
-                                            <i class="fab fa-google fa-fw"></i> {{ __('Login with Google') }}
-                                        </button>
-                                    </div>
+    <a href="{{ route('login.google') }}" class="btn btn-google btn-user btn-block">
+        <i class="fab fa-google fa-fw"></i> {{ __('Login with Google') }}
+    </a>
+</div>
+                                    
 
                                     <div class="form-group">
                                         <button type="button" class="btn btn-facebook btn-user btn-block">

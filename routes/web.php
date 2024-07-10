@@ -6,6 +6,7 @@ use App\Http\Controllers\KriteriaController;
 use App\Http\Controllers\AlternatifController;
 use App\Http\Controllers\PenilaianController;
 use App\Http\Controllers\PerhitunganController;
+use App\Http\Controllers\Auth\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -64,3 +65,6 @@ Route::get('/perhitungan/wp', [PerhitunganController::class, 'wp'])->name('perhi
 Route::get('/about', function () {
     return view('about');
 })->name('about');
+
+Route::get('auth/google', [LoginController::class, 'redirectToGoogle'])->name('login.google');
+Route::get('auth/google/callback', [LoginController::class, 'handleGoogleCallback']);
